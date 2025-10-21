@@ -3,11 +3,12 @@ version: 2.0
 api-version: 1.14
 author: Idrees
 main: com.idreesinc.celeste.Celeste
+folia-supported: true
 
 commands:
   celeste:
     description: Reloads the plugin configuration or prints runtime info
-    usage: /<command> <reload|info>
+    usage: /<command> <reload>
   shootingstar:
     description: Creates a shooting star near the player that summons it, or optionally near another player
     usage: /<command> [player]
